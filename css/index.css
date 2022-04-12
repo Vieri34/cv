@@ -1,0 +1,144 @@
+
+@font-face {
+	font-family: Kollektif; src: url(../fonts/Kollektif.ttf);
+}
+
+body {
+	font-family: Kollektif;
+	color: #545454;
+}
+
+header {
+	height: 60mm;
+	background: linear-gradient(to right, #2F2F8D, #5858DF);
+	background-size: cover;
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	padding: 10px;
+}
+
+header img {
+	height: 180px;
+	border-radius: 50%;
+	margin: 5px 35px 5px 55px;
+}
+
+header .title {
+	width: 60%;
+}
+
+header h1, header h2, header p {
+	color: #fff;
+}
+
+header h1 {
+	font-size: 3rem;
+	font-weight: bold;
+	padding-bottom: 10px;
+}
+
+header h2 {
+	font-size: 1.8rem;
+	font-weight: normal;
+	letter-spacing: 5px;
+}
+
+header p {
+	width: 100%;
+	font-size: 1.1rem;
+	text-align: center;
+	margin: 0 10px 0 55px;
+}
+
+/* main */
+
+main {
+	height: 237mm;
+	display: flex;
+}
+
+section.text {
+	width: 70%;
+	background: #efefef;
+	padding: 10px 45px;
+}
+
+.text h2, .text-2 h2 {
+	font-size: 1.1rem;
+	letter-spacing: 5px;
+	color: #7c8587;
+	text-transform: uppercase;
+	font-weight: bold;
+	border-bottom: solid 2px;
+	padding: 5px 0;
+}
+
+.text h3 {
+	font-size: 1rem;
+	font-weight: bold;
+	color: #000000;
+	margin: 10px 0 0;
+}
+
+.text h4 {
+	font-size: 1rem;
+	font-weight: bold;
+	color: #2079c7;
+	margin: 5px 0;
+}
+
+.text h5 {
+	font-size: 0.8rem;
+	font-style: italic;
+	color: #818181;
+	margin: 5px 0;
+}
+
+li {
+	font-size: 1rem;
+	margin: 5px 0 5px 10px;
+}
+
+a {
+	font-size: 1rem;
+	color: #2079c7;
+	text-decoration: none;
+}
+
+span {
+	margin: 0 5px;
+}
+
+/* aside */
+aside.text-2 {
+	width: 30%;
+	margin: 15px;
+}
+
+.text-2 .renseignement {
+	display: flex;
+	align-items: center;
+	margin: 10px 0;
+}
+
+.text-2 i {
+	color: #fff;
+	background: #808080;
+	font-size: 1rem;
+	padding: 5px;
+	border-radius: 3px;
+	margin-right: 10px;
+}
+
+.text-2 i.fa-map-pin {
+	padding: 5px 8px;
+}
+
+.text-2 h2 {
+	margin-top: 15px;
+}
+
+.text-2 p {
+	color: #808080;
+}

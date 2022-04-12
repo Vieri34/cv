@@ -1,0 +1,19 @@
+
+/* all */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+@page {
+	size: A4;
+	margin: 0;
+}
+@media print {
+	html, body {
+		width: 210mm;
+		height: 297mm;
+	}
+}
+/* Use CSS Paged Media to switch from continuous documents to sheet-like documents with separate pages */
+
